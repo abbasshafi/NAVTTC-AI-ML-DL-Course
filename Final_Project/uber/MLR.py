@@ -8,7 +8,7 @@ from sklearn.linear_model import LinearRegression
 data = pd.read_csv("taxi.csv")
 # print(data)
 
-x=data.iloc[:,0:-1].values
+x=data.iloc[:,:-1].values
 y=data.iloc[:,-1].values
 # print(x)
 # print(y)
